@@ -1,0 +1,24 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    min-height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.colorbtn{
+    font-size:20px;
+    padding:10px 15px;
+    border:3px solid blue !important;
+    border-radius: 7px;
+    background:rgba(0,0,0,0.6);
+    color:#fff !important;
+    text-transform: capitalize;
+    outline: none !important;
+    cursor:pointer;
+}
+.colorbtn:hover{
+    background: #000;
+    
+}

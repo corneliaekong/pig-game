@@ -1,0 +1,100 @@
+body{
+    background-color: #f4f4f4;
+}
+.navbar{
+    min-height: 35px !important;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+.navbar-default .navbar-nav >li >a, .navbar-brand{
+    padding-top:4px !important;
+    padding-bottom: 2;
+    height:33px;
+}
+.navbar-default{
+    background-color: #c74c3c;
+    border-color:#c0392b;
+}
+.navbar-default .navbar-brand{
+    color:#c0f0f1;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus{
+    color:#ffbbbc;
+}
+.navbar-default .navbar-nav li a{
+    color:#c0f0f1;
+}
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus{
+    color:#ffbbbc;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    background-color: #c0392b;
+}
+.navbar-default .navbar-toggle .icon-bar{
+   background-color: #c0f0f1;
+}
+.navbar-default .navbar-collapse{
+    border-color: #c0f0f1;
+}
+.navbar-default .navbar-nav .active a,
+.navbar-default .navbar-nav .active a:hover,
+.navbar-default .navbar-nav .active a:focus{
+    color:#c0f0f1;
+    background-color: #ffbbbc;
+}
+
+
+#header{
+    background-color: #333333;
+    color:#fff;
+    padding:15px;
+    position: relative;
+    
+
+}
+#header .create{
+    padding-top:30px;
+}
+.breadcrumb{
+    background-color: #cccccc;
+    color: #333333;
+}
+
+.breadcrumb li{
+    columns: #333333;
+}
+.main-color-bg{
+    background-color: #c74c3c !important;
+    color:#fff !important;
+    border-color:#c0392b !important;
+
+}
+.dash-box{
+    text-align:center;
+}
+#footer{
+    background-color: #333333;
+    color:#fff;
+    text-align: center;
+    padding: 30px;
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.forget:hover{
+    cursor:pointer;
+
+}
+.segment-id{
+    width:400px;
+    height:300px;
+    background-color:#eeff;
+}
+.segment-order{
+    width:300px;
+    height:300px;
+    background-color: #333333;
+}
+
