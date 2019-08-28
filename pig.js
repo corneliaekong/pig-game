@@ -11,7 +11,7 @@ var scores, roundScore, activePlayer, gamePlaying, newScore;
    //2 display the result
    var diceDOM = document.querySelector('.dice');
    diceDOM.style.display = 'block';
-   diceDOM.src = '../Images/dice-' + dice + '.png';
+   diceDOM.src = './Images/dice-' + dice + '.png';
    
    if(newScore === 6 && dice === 6){
      // player ooses
